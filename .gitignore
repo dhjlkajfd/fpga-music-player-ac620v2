@@ -1,0 +1,39 @@
+# Quartus generated directories
+db/
+incremental_db/
+output_files/
+quartus/db/
+quartus/incremental_db/
+quartus/output_files/
+
+# Quartus reports and temporary files
+*.rpt
+*.summary
+*.done
+*.smsg
+*.jdi
+*.pin
+*.fit.*
+*.map.*
+*.sta.*
+*.flow.*
+*.bak
+*.tmp
+*.log
+
+# Simulation output
+work/
+*.wlf
+*.vcd
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep final downloadable SOF release artifacts
+!release/
+!release/**/
+!release/final_sof/
+!release/final_sof/*.sof
